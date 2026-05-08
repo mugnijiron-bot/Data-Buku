@@ -1,0 +1,29 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #f0f2f5; padding: 30px; }
+
+.wrap { max-width: 860px; margin: auto; background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+.wrap.kecil { max-width: 480px; }
+
+h1 { color: #333; margin-bottom: 15px; }
+
+.sukses { background: #d4edda; color: #155724; padding: 10px; border-radius: 4px; margin-bottom: 12px; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { border: 1px solid #ddd; padding: 9px 12px; text-align: left; vertical-align: middle; }
+th { background: #3498db; color: white; }
+tr:nth-child(even) { background: #f9f9f9; }
+
+td img { width: 50px; height: 65px; object-fit: cover; border-radius: 3px; }
+
+.btn { padding: 5px 12px; border-radius: 4px; border: none; cursor: pointer; text-decoration: none; font-size: 13px; display: inline-block; }
+.hijau { background: #27ae60; color: white; margin-bottom: 12px; padding: 8px 16px; }
+.kuning { background: #f39c12; color: white; }
+.merah { background: #e74c3c; color: white; }
+.biru { background: #3498db; color: white; width: 100%; padding: 10px; font-size: 15px; margin-top: 18px; }
+
+label { display: block; margin-top: 14px; font-weight: bold; color: #444; margin-bottom: 4px; }
+input[type=text], input[type=number], input[type=file] { width: 100%; padding: 8px 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; }
+
+#prev { margin-top: 8px; width: 70px; height: 90px; object-fit: cover; border-radius: 4px; display: block; }
+
+a { color: #666; font-size: 13px; display: inline-block; margin-top: 10px; }
